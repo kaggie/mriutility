@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/LinearLayout01"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+
+<ScrollView android:id="@+id/ScrollView"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent">
+     
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:stretchColumns="1">
+
+<TableRow >
+                               <Button 
+        android:id="@+id/coilc_cl"  
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content"
+        android:text="Find C, Z from L, f0"
+        /> 
+</TableRow>   
+
+<TableRow >
+                               <Button 
+        android:id="@+id/coilc_lc"  
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content"
+        android:text="Find L, Z from C, f0"
+        /> 
+</TableRow>   
+
+<TableRow >
+                               <Button 
+        android:id="@+id/coilc_z0"  
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content"
+        android:text="Find C, L from Z0, f0"
+        /> 
+</TableRow>   
+
+<TableRow >
+                               <Button 
+        android:id="@+id/coilc_newc"  
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content"
+        android:text="Find new C from old C, f0"
+        /> 
+</TableRow>   
+
+<TableRow >
+                               <Button 
+        android:id="@+id/coilc_phaseshifter"  
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content"
+        android:text="Phase Shifter"
+        /> 
+</TableRow>   
+
+
+
+</TableLayout>
+</ScrollView>
+</LinearLayout>

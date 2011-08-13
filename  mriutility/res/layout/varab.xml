@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+  
+<!--  <ScrollView android:id="@+id/ScrollView"-->
+<!--android:layout_width="fill_parent"-->
+<!--android:layout_height="fill_parent">-->
+
+
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:id="@+id/varatext"
+    android:text="Frequency (MHz)"
+    />
+    
+                   <EditText
+        android:id="@+id/vara"
+        android:layout_width="fill_parent"
+        android:inputType="numberDecimal"
+        android:layout_height="wrap_content"
+        android:hint="frequency"/>
+
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:id="@+id/varbtext"
+        android:text="Inductance (nH)"
+    
+    />
+
+<EditText
+        android:id="@+id/varb"
+        android:layout_width="fill_parent"
+        android:inputType="numberDecimal"
+        android:layout_height="wrap_content"
+        android:hint="inductance value"/>    
+        
+        
+                                       <Button 
+        android:id="@+id/solve"  
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content"
+        android:text="Solve!"
+        /> 
+        
+        <TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:id="@+id/abouttext"
+android:text="Capacitor Value (pF)"
+    />
+
+
+
+<EditText
+        android:id="@+id/about"
+        android:layout_width="fill_parent"
+        android:inputType="numberDecimal"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:hint="inductance value"/>    
+
+<!--</ScrollView>-->
+  
+    
+</LinearLayout>

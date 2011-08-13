@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.mriapp.simple"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="3" />
+
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:name=".MRIappActivity"
+                  android:label="@string/app_name">
+        
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+                  
+        <activity android:name=".reference"
+                  android:label="@string/app_name" />
+                  
+        <activity android:name=".simulation"
+                  android:label="@string/app_name" />
+                  
+        <activity android:name=".signalcalculator"
+                  android:label="@string/app_name" />
+                  
+        <activity android:name=".coilcalculator"
+                  android:label="@string/app_name" />
+
+        <activity android:name=".coilc_cl"
+                  android:label="@string/app_name" />
+
+        <activity android:name=".coilc_lc"
+                  android:label="@string/app_name" />
+
+        <activity android:name=".coilc_newc"
+                  android:label="@string/app_name" />
+
+        <activity android:name=".coilc_phaseshifter"
+                  android:label="@string/app_name" />
+        
+        <activity android:name=".coilc_z0"
+                  android:label="@string/app_name" />
+
+        		 <activity android:name=".sigsnr"
+                  android:label="@string/app_name" />
+                          <activity android:name=".sigt1"
+                  android:label="@string/app_name" />
+                          <activity android:name=".sigt2"
+                  android:label="@string/app_name" />               
+
+
+    </application>
+</manifest>

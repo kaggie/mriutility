@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/LinearLayout01"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+
+<ScrollView android:id="@+id/ScrollView"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent">
+     
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:stretchColumns="1">
+
+<TableRow >
+                               <Button 
+        android:id="@+id/coils"  
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content"
+        android:text="Coil Calculator"
+        /> 
+</TableRow>   
+
+<TableRow >
+                               <Button 
+        android:id="@+id/signal"  
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content"
+        android:text="Signal Calculator"
+        /> 
+</TableRow>   
+
+
+<TableRow >
+                               <Button 
+        android:id="@+id/sim"  
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content"
+        android:text="Simulation"
+        /> 
+</TableRow>   
+
+<TableRow >
+                               <Button 
+        android:id="@+id/refs"  
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content"
+        android:text="Reference"
+        /> 
+</TableRow>   
+
+
+
+</TableLayout>
+</ScrollView>
+</LinearLayout>
+
